@@ -1,6 +1,7 @@
 package com.example.test;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Test {
@@ -41,9 +42,18 @@ public class Test {
 //          System.out.println(message.trim());
           //this method can get rig of white space at the beginning or end
 
-        String message = "c:\twindows\\...";
-        //\n insert a new line
-        //\t insert a space
-        System.out.println(message);
+//        String message = "c:\twindows\\...";
+//        //\n insert a new line
+//        //\t insert a space
+//        System.out.println(message);
+
+        int[] numbers = {2, 3, 5 ,1, 4};
+        Arrays.sort(numbers);
+//        System.out.println(numbers.length);
+//        numbers[0] = 1;
+//        numbers[1] = 2;
+
+        System.out.println(Arrays.toString(numbers));
+        //this returns address of the memory
     }
 }
