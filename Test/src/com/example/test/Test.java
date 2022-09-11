@@ -21,9 +21,25 @@ public class Test {
         x = 2;
         System.out.println(y);*/
 
-        Point point1 = new Point(1,1);
+        /*Point point1 = new Point(1,1);
         Point point2 = point1;
         point1.x = 2;
-        System.out.println(point2);
+        System.out.println(point2);*/
+
+        String message = "   Hello World!" + "!!   ";
+
+//        System.out.println(message.endsWith("!!"));
+//        System.out.println(message.length());
+//        System.out.println(message.indexOf("sky"));
+//        System.out.println(message.replace("!", "*"));
+//        System.out.println(message);
+        //Replace method does not modify the original original string.
+        //It returns a new string.
+
+          System.out.println(message.toLowerCase());
+        //It returns a new string.
+          System.out.println(message.trim());
+          //this method can get rig of white space at the beginning or end
+
     }
 }
