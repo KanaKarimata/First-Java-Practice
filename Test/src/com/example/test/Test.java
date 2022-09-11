@@ -56,10 +56,12 @@ public class Test {
 //        System.out.println(Arrays.toString(numbers));
         //this returns address of the memory
 
-        int[][] numbers ={ {1, 2, 3}, {4, 5, 6 }};
+        /*int[][] numbers ={ {1, 2, 3}, {4, 5, 6 }};
         numbers[0][0] = 1;
-        System.out.println(Arrays.deepToString(numbers));
+        System.out.println(Arrays.deepToString(numbers));*/
 
-
+        final float PI = 3.14F;
+        //final makes the valuables are constant,
+        // and constant valuables should be Upper letters
     }
 }
