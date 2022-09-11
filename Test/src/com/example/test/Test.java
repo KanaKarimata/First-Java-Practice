@@ -26,7 +26,7 @@ public class Test {
         point1.x = 2;
         System.out.println(point2);*/
 
-        String message = "   Hello World!" + "!!   ";
+//        String message = "   Hello World!" + "!!   ";
 
 //        System.out.println(message.endsWith("!!"));
 //        System.out.println(message.length());
@@ -36,10 +36,14 @@ public class Test {
         //Replace method does not modify the original original string.
         //It returns a new string.
 
-          System.out.println(message.toLowerCase());
+//          System.out.println(message.toLowerCase());
         //It returns a new string.
-          System.out.println(message.trim());
+//          System.out.println(message.trim());
           //this method can get rig of white space at the beginning or end
 
+        String message = "c:\twindows\\...";
+        //\n insert a new line
+        //\t insert a space
+        System.out.println(message);
     }
 }
