@@ -47,13 +47,19 @@ public class Test {
 //        //\t insert a space
 //        System.out.println(message);
 
-        int[] numbers = {2, 3, 5 ,1, 4};
-        Arrays.sort(numbers);
+//        int[] numbers = {2, 3, 5 ,1, 4};
+//        Arrays.sort(numbers);
 //        System.out.println(numbers.length);
 //        numbers[0] = 1;
 //        numbers[1] = 2;
 
-        System.out.println(Arrays.toString(numbers));
+//        System.out.println(Arrays.toString(numbers));
         //this returns address of the memory
+
+        int[][] numbers ={ {1, 2, 3}, {4, 5, 6 }};
+        numbers[0][0] = 1;
+        System.out.println(Arrays.deepToString(numbers));
+
+
     }
 }
