@@ -65,8 +65,14 @@ public class Test {
         // and constant valuables should be Upper letters
 
 //        double result = (double)10 / (double)3;
-        int x = (10 + 3) * 2;
-        System.out.println(x);
+        /*int x = (10 + 3) * 2;
+        System.out.println(x);*/
+
+        //Implicit casting
+        //byte > short > int > long > float > double
+        String x = "1.1";
+        double y = Double.parseDouble(x) + 2;
+        System.out.println(y);
     }
 }
 
