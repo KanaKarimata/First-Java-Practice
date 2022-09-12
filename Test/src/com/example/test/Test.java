@@ -70,9 +70,12 @@ public class Test {
 
         //Implicit casting
         //byte > short > int > long > float > double
-        String x = "1.1";
+        /*String x = "1.1";
         double y = Double.parseDouble(x) + 2;
-        System.out.println(y);
+        System.out.println(y);*/
+
+        int result = (int)Math.random() * 100;
+        System.out.println(result);
     }
 }
 
