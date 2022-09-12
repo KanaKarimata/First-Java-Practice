@@ -60,8 +60,14 @@ public class Test {
         numbers[0][0] = 1;
         System.out.println(Arrays.deepToString(numbers));*/
 
-        final float PI = 3.14F;
+//        final float PI = 3.14F;
         //final makes the valuables are constant,
         // and constant valuables should be Upper letters
+
+//        double result = (double)10 / (double)3;
+        int x = 1;
+        x += 1;
+        System.out.println(x);
     }
 }
+
