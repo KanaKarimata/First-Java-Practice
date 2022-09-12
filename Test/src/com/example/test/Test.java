@@ -65,8 +65,7 @@ public class Test {
         // and constant valuables should be Upper letters
 
 //        double result = (double)10 / (double)3;
-        int x = 1;
-        x += 1;
+        int x = (10 + 3) * 2;
         System.out.println(x);
     }
 }
