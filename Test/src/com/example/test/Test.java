@@ -1,6 +1,9 @@
 package com.example.test;
 
 import java.awt.*;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
+import java.text.ParsePosition;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -74,7 +77,11 @@ public class Test {
         double y = Double.parseDouble(x) + 2;
         System.out.println(y);*/
 
-        int result = (int)Math.random() * 100;
+        /*int result = (int)Math.random() * 100;
+        System.out.println(result);*/
+
+
+        String result = NumberFormat.getPercentInstance().format(0.1);
         System.out.println(result);
     }
 }
