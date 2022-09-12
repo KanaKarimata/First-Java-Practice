@@ -6,6 +6,7 @@ import java.text.NumberFormat;
 import java.text.ParsePosition;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
@@ -81,8 +82,14 @@ public class Test {
         System.out.println(result);*/
 
 
-        String result = NumberFormat.getPercentInstance().format(0.1);
-        System.out.println(result);
+        /*String result = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result);*/
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
+
     }
 }
 
