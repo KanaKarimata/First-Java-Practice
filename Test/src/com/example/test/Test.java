@@ -145,7 +145,24 @@ public class Test {
         String ans = "x+yは" + (x + y);
         System.out.println(ans);*/
 
+        String welcome = "ようこそ占いの館へ";
+        System.out.println(welcome);
+        String inputNameMessage = "あなたの名前を入力してください";
+        System.out.println(inputNameMessage);
+        String name = new java.util.Scanner(System.in).nextLine();
 
+        String inputAgeMessage = "あなたの年齢を入力してください";
+        System.out.println(inputAgeMessage);
+        String ageString = new java.util.Scanner(System.in).nextLine();
+
+        int age = Integer.parseInt(ageString);
+        int fortune = new java.util.Random().nextInt(3);
+        fortune++;
+        String resultMessage = "占いの結果が出ました！";
+        System.out.println(resultMessage);
+
+        System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune + "です");
+        System.out.println("1:大吉　2:中吉 3:吉 4:凶");
     }
 }
 
