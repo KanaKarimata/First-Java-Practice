@@ -178,7 +178,7 @@ public class Test {
             System.out.println("1分待つ");
         }*/
 
-        System.out.println("あなたの運勢を占います");
+        /*System.out.println("あなたの運勢を占います");
         int fortune = new java.util.Random().nextInt(5) + 1;
         switch (fortune) {
             case 1:
@@ -191,7 +191,13 @@ public class Test {
             case 4:
             case 5:
                 System.out.println("うーーーん");
-        }
+        }*/
+
+        /*weight == 60;
+        (age1 + age2)*2 > 60;
+        age % 2 = 1;
+        name.equal("湊");*/
+
 
 
     }
