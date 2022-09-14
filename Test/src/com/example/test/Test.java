@@ -85,11 +85,15 @@ public class Test {
         /*String result = NumberFormat.getPercentInstance().format(0.1);
         System.out.println(result);*/
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Name: ");
         String name = scanner.nextLine().trim();
-        System.out.println("You are " + name);
+        System.out.println("You are " + name);*/
 
+        int a = 3;
+        int b = 5;
+        int c = a * b;
+        System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);
     }
 }
 
