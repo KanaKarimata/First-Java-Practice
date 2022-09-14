@@ -90,10 +90,21 @@ public class Test {
         String name = scanner.nextLine().trim();
         System.out.println("You are " + name);*/
 
-        int a = 3;
+        /*int a = 3;
         int b = 5;
         int c = a * b;
-        System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);
+        System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);*/
+
+        boolean result = true;
+        char letter = '翔';
+        final double PI = 3.14;
+        long number = 314159265853979L;
+        String message = "ミナトの攻撃！的に１５ポイントのダメージを与えた！";
+        System.out.println(result);
+        System.out.println(letter);
+        System.out.println(PI);
+        System.out.println(number);
+        System.out.println(message);
     }
 }
 
