@@ -95,7 +95,7 @@ public class Test {
         int c = a * b;
         System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);*/
 
-        boolean result = true;
+        /*boolean result = true;
         char letter = '翔';
         final double PI = 3.14;
         long number = 314159265853979L;
@@ -104,7 +104,24 @@ public class Test {
         System.out.println(letter);
         System.out.println(PI);
         System.out.println(number);
-        System.out.println(message);
+        System.out.println(message);*/
+
+        /*float f = 3;
+        double d = f;
+        System.out.println(f);
+        System.out.println(d);
+
+        int age = (int)3.2;
+        System.out.println(age);*/
+
+        double d = 8.5 / 2;
+        long l = 5 + 2L;
+        System.out.println(d);
+        System.out.println(l);
+
+        String msg = "私の年齢は" + 23;
+        System.out.println(msg);
+
     }
 }
 
