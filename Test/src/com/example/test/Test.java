@@ -145,7 +145,7 @@ public class Test {
         String ans = "x+yは" + (x + y);
         System.out.println(ans);*/
 
-        String welcome = "ようこそ占いの館へ";
+        /*String welcome = "ようこそ占いの館へ";
         System.out.println(welcome);
         String inputNameMessage = "あなたの名前を入力してください";
         System.out.println(inputNameMessage);
@@ -162,7 +162,38 @@ public class Test {
         System.out.println(resultMessage);
 
         System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune + "です");
-        System.out.println("1:大吉　2:中吉 3:吉 4:凶");
+        System.out.println("1:大吉　2:中吉 3:吉 4:凶");*/
+
+        /*boolean weather = true;
+        if (weather == true) {
+            System.out.println("洗濯をします");
+            System.out.println("散歩に行きます");
+        } else {
+            System.out.println("DVDを見ます");
+        }*/
+
+        /*boolean doorClose = true;
+        while (doorClose == true) {
+            System.out.println("ノックする");
+            System.out.println("1分待つ");
+        }*/
+
+        System.out.println("あなたの運勢を占います");
+        int fortune = new java.util.Random().nextInt(5) + 1;
+        switch (fortune) {
+            case 1:
+            case 2:
+                System.out.println("いいね！");
+                break;
+            case 3:
+                System.out.println("普通です！");
+                break;
+            case 4:
+            case 5:
+                System.out.println("うーーーん");
+        }
+
+
     }
 }
 
