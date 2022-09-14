@@ -114,13 +114,37 @@ public class Test {
         int age = (int)3.2;
         System.out.println(age);*/
 
-        double d = 8.5 / 2;
+        /*double d = 8.5 / 2;
         long l = 5 + 2L;
         System.out.println(d);
         System.out.println(l);
 
         String msg = "私の年齢は" + 23;
-        System.out.println(msg);
+        System.out.println(msg);*/
+
+        /*int a = 5;
+        int b = 3;
+        int m = Math.max(a, b);
+        System.out.println("比較実験：" + a + "と" + b + "とで大lいいほうは…" + m);*/
+
+        /*String age = "31";
+        int n = Integer.parseInt(age);
+        System.out.println("あなたは来年、" + (n + 1) + "歳になりますね。");*/
+
+        /*int r = new java.util.Random().nextInt(90);
+        System.out.println(r);
+
+        System.out.println("あなたの名前を入力してください");
+        String name = new java.util.Scanner(System.in).nextLine();
+        System.out.println("あなたの年齢を入力してください");
+        int age = new java.util.Scanner(System.in).nextInt();
+        System.out.println("ようこそ、" + age + "歳の" + name + "さん");*/
+
+        /*int x = 5;
+        int y = 10;
+        String ans = "x+yは" + (x + y);
+        System.out.println(ans);*/
+
 
     }
 }
