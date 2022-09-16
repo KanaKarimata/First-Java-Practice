@@ -244,7 +244,7 @@ public class Test {
             default:
         }*/
 
-        System.out.println("【数当てゲーム】");
+        /*System.out.println("【数当てゲーム】");
         int ans = new java.util.Random().nextInt(10);
         for (int i = 1; i < 5; i++) {
             System.out.println("0〜9の数字を入力してください");
@@ -256,7 +256,55 @@ public class Test {
                 System.out.println("違います");
             }
         }
-        System.out.println("ゲームを終了します");
+        System.out.println("ゲームを終了します");*/
+
+        /*int[] scores;
+        scores = new int[5];
+        int num = scores.length;
+        System.out.println("The amount of elements:" + num);
+        scores[1] = 30;
+        System.out.println(scores[1]);*/
+
+        /*int[] scores = {20, 30, 40, 50, 80};
+        int sum = scores[0] + scores[1] + scores[2] + scores[3] + scores[4];
+        int avg = sum / scores.length;
+        System.out.println("Average: " + avg);*/
+
+        /*int[] scores = {20, 30, 40, 50, 80};
+        int sum = 0;
+        for (int i = 0; i < scores.length; i++) {
+            sum += scores[i];
+        }
+        int avg = sum / scores.length;
+        System.out.println("Sum: " + sum);
+        System.out.println("Average: " + avg);*/
+
+        /*int[] seq = new int[10];
+        for(int i = 0; i < seq.length; i++){
+            seq[i] = new java.util.Random().nextInt(4);*/
+            /*switch(seq[i]) {
+                case 0:
+                    System.out.print("A");
+                    break;
+                case 1:
+                    System.out.print("T");
+                    break;
+                case 2:
+                    System.out.print("G");
+                    break;
+                case 3:
+                    System.out.print("C");
+                    break;
+            }*/
+            /*char[] base = {'A', 'T', 'G', 'C'};
+            System.out.print(base[seq[i]]);
+
+        }*/
+
+        int[] scores = {20, 30, 40, 50, 80};
+        for(int value : scores) {
+            System.out.print(value);
+        }
 
     }
 }
